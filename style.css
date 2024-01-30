@@ -1,0 +1,77 @@
+*{
+    font-family: Roboto;
+    padding: 0;
+
+}
+.container {
+    background-color: #dddddd;
+    margin: auto;
+    border-radius: 5px;
+    width: 1024px;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+}
+form input{
+    width: 220px;
+}
+body{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+form{
+    float: right;
+    margin-top: -35px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+   
+}
+nav li{
+    background-color: #1226ed;
+    padding: 2px 20px 2px 20px;
+    border-radius: 3px;
+}
+nav li a{
+    color: rgb(255, 255, 255);
+
+}
+aside{
+    background-color: rgb(255, 255, 255);
+    float: right;
+    width: 25%;
+    border-radius: 5px;
+    margin-right: 0;
+    margin-left: 1%;
+    padding: 10px;
+    border-width: 1px solid #bbbbbb;
+}
+aside ul{
+    text-decoration: underline;
+    color: rgb(125, 4, 134);
+    margin-left: 35px;
+}
+
+footer{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #bbbbbb;
+    padding: 10px;
+    font-size: 0.8em;
+}
+footer p{
+    margin: 0px;
+    text-align: center;
+}
+article{
+    text-align: justify;
+}
+
+
